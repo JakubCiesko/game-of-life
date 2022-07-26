@@ -27,4 +27,4 @@ class Cell:
         Funkcia meni hodnotu state objektu triedy Cell na jej negaciu:
         :return: True if self.state == False else False
         """
-        self.state = not self.state
+        self.set_state(not self.get_state())
